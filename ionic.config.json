@@ -1,0 +1,7 @@
+{
+  "name": "routing",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
