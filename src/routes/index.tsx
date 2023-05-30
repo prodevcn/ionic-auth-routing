@@ -8,7 +8,6 @@ import { selectUser } from '../redux/reducers/user'
 
 import Cover from '../pages/auth/cover'
 import Login from '../pages/auth/login'
-import Register from '../pages/auth/register'
 
 import Explore from '../pages/tabs/explore'
 import Search from '../pages/tabs/explore/search'
@@ -29,10 +28,7 @@ const AuthRoutes: React.FC = () => {
         </Route>
         <Route exact path="/cover" component={Cover} />
         <Route exact path="/login" component={Login} />
-        <Route exact path="/register" component={Register} />
-        {/* <Route>
-        <Redirect to="/login" />
-      </Route> */}
+        <Route render={() => <Redirect to="/login" />} />
       </Switch>
     </IonRouterOutlet>
   )

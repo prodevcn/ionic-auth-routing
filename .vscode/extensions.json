@@ -1,5 +1,9 @@
 {
-    "recommendations": [
-        "ionic.ionic"
-    ]
+  "recommendations": [
+    "ionic.ionic",
+    "dart-code.dart-code",
+    "davidanson.vscode-markdownlint",
+    "vscjava.vscode-gradle",
+    "premparihar.gotestexplorer"
+  ]
 }

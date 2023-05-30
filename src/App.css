@@ -1,0 +1,32 @@
+.area-title {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.area-footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size:xx-large;
+}
+
+.fab-bottom {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+}
+
+.space-y {
+  margin: 1rem auto !important;
+}
+
+.space-2y {
+  margin: 2rem auto !important;
+}
+
+.space-ty-large {
+  margin-top: 4rem !important;
+}

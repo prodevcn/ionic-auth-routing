@@ -1,6 +1,7 @@
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import AppRoutes from './routes';
+import { AuthProvider } from './context';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -20,13 +21,16 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import './App.css'
 
 setupIonicReact();
 
 const App: React.FC = () => (
-  <IonApp>
-    <AppRoutes />
-  </IonApp>
+  <AuthProvider>
+    <IonApp>
+      <AppRoutes />
+    </IonApp>
+  </AuthProvider>
 );
 
 export default App;
